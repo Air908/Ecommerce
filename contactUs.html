@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+  <title>Flying Hacker</title>
+</head>
+
+<body class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark container" id="TOP">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">FlyingHacker</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="orders.html">Orders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+         
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <h1>Contact Us</h1>
+    <div class="contact" id="contact">
+      <section id="C2">
+        <img src="files/address.png" align="right" id="map" alt="contact" width="50%" height="50%" onclick="window.location.href='https://maps.app.goo.gl/yqHv1Fe5WB2tfQaT9'">
+        <form action="php/data.php" id ="form" method="post">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Your name.." required><br>
+              <label for="lname">Last Name</label>
+              &nbsp;<input type="text" id="lname" name="lname" placeholder="Your last name.."><br>
+              <label for="Address">Address</label>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="Address" name="Address" placeholder="Your address.." required><br>
+              <label for="subject">Subject</label><br>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea><br>
+              <input type="submit" value="Submit">
+          </form>
+      </section>
+  </div>
+  </div>
+
+  <nav class=" fixed-bottom">
+    <div class="container-fluid" align="right">
+      <a id="single_image" href="#TOP"><img src="files/top.png" alt="down" width="50px" height="50px" /></a>
+    </div>
+  </nav>
+  <div class="footer container bg-Light btn-light">
+    <Table class="container center">
+      <tr>
+        <td width="300px" height="100px" style="text-align: center;">
+          <section id="about">
+            <h1>About</h1>
+            <p>This is a demo project for web development for the first semester of OSST. In this project, we will learn
+              about HTML, CSS, JavaScript, and php. We will also learn how to create a ecommmerce website. I am making a
+              website for purchasing software and hardware products.</p>
+          </section>
+        </td>
+        <td width="300px" height="100px" style="text-align: center;">
+          <section id="end">
+            <nav>
+              <h1 id="end"> Quick Links</h1>
+              <a href="index.html" id="end">Home</a><br>
+              <a href="courses.html" id="end">Courses</a><br>
+              <a href="Products.html" id="end">Products</a><br>
+              <a href="contactUs.html" id="end">Contact Us</a><br>
+              <a href="orders.html" id="end">Orders</a><br>
+              <a href="about.html" id="end">About</a><br>
+            </nav>
+          </section>
+        </td>
+        <td width="300px" height="100px" style="text-align: center;">
+          <section id="ender">
+            <nav>
+              <h1 id="ender"> Social Links</h1>
+              <a href="https://www.facebook.com" id="ender"><img src="files/facebook.jpeg" alt="facebook" width="80px"
+                  height="80px"></a><br>
+              <a href="https://www.instagram.com" id="ender"><img src="files/instagram.jpeg" alt="instagram"
+                  width="80px" height="80px"></a><br>
+              <a href="https://www.twitter.com" id="ender"><img src="files/twitter.jpeg" alt="twitter" width="50px"
+                  height="50px"></a><br>
+              <a href="https://www.linkedin.com" id="ender"><img src="files/LinkedIn_Logo.svg.png" alt="linkedin"
+                  width="80px" height="50px"></a><br>
+              <a href="https://www.github.com" id="ender"><img src="files/GitHub-Embleme.png" alt="github" width="80px"
+                  height="80px"></a><br>
+            </nav>
+          </section>
+        </td>
+      </tr>
+    </Table>
+    <section id="ending">
+      <h6>Rating
+        <script type="text/javascript">
+          for (i = 1; i <= 5; i++) {
+            document.write("<img src='files/star.png' width='20px' height='20px'>");
+          }
+        </script>
+      </h6>
+    </section>
+    <section id="footer">
+      <hr id="hr">
+      <p style="text-align: center">Copyright © 2023 Flying Hacktech<br>
+        Developed by Rohit Sheoran</p>
+    </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
